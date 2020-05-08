@@ -5,13 +5,12 @@
     {{-- start sidebar + content--}}
     <div class="container margin-top">
         <div class="row">
+
             <div class="col-md-4">
-                <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">First Item</a>
-                    <a href="#" class="list-group-item list-group-item-action">Second Item</a>
-                    <a href="#" class="list-group-item list-group-item-action">Third Item</a>
-                </div>
+                @include('partials.product-slidebar');
             </div>
+
+
 
             <div class="col-md-8">
                 <div class="widget">
